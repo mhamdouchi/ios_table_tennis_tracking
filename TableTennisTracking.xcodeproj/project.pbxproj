@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D96734B92868B3E30046F3DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96734B82868B3E30046F3DA /* AppDelegate.swift */; };
+		D96734BB2868B3E30046F3DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96734BA2868B3E30046F3DA /* SceneDelegate.swift */; };
+		D96734BD2868B3E30046F3DA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96734BC2868B3E30046F3DA /* MainViewController.swift */; };
+		D96734C02868B3E30046F3DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96734BE2868B3E30046F3DA /* Main.storyboard */; };
+		D96734C22868B3E40046F3DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96734C12868B3E40046F3DA /* Assets.xcassets */; };
+		D96734C52868B3E40046F3DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96734C32868B3E40046F3DA /* LaunchScreen.storyboard */; };
+		D96734D02868B3E40046F3DA /* TableTennisTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96734CF2868B3E40046F3DA /* TableTennisTrackingTests.swift */; };
+		D96734DA2868B3E40046F3DA /* TableTennisTrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96734D92868B3E40046F3DA /* TableTennisTrackingUITests.swift */; };
+		D96734DC2868B3E40046F3DA /* TableTennisTrackingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96734DB2868B3E40046F3DA /* TableTennisTrackingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D96734CC2868B3E40046F3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96734AD2868B3E30046F3DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96734B42868B3E30046F3DA;
+			remoteInfo = TableTennisTracking;
+		};
+		D96734D62868B3E40046F3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96734AD2868B3E30046F3DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96734B42868B3E30046F3DA;
+			remoteInfo = TableTennisTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D96734B52868B3E30046F3DA /* TableTennisTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableTennisTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96734B82868B3E30046F3DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D96734BA2868B3E30046F3DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D96734BC2868B3E30046F3DA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D96734BF2868B3E30046F3DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D96734C12868B3E40046F3DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D96734C42868B3E40046F3DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D96734C62868B3E40046F3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96734CB2868B3E40046F3DA /* TableTennisTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableTennisTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96734CF2868B3E40046F3DA /* TableTennisTrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTennisTrackingTests.swift; sourceTree = "<group>"; };
+		D96734D52868B3E40046F3DA /* TableTennisTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableTennisTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96734D92868B3E40046F3DA /* TableTennisTrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTennisTrackingUITests.swift; sourceTree = "<group>"; };
+		D96734DB2868B3E40046F3DA /* TableTennisTrackingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTennisTrackingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D96734B22868B3E30046F3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96734C82868B3E40046F3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96734D22868B3E40046F3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D96734AC2868B3E30046F3DA = {
+			isa = PBXGroup;
+			children = (
+				D96734B72868B3E30046F3DA /* TableTennisTracking */,
+				D96734CE2868B3E40046F3DA /* TableTennisTrackingTests */,
+				D96734D82868B3E40046F3DA /* TableTennisTrackingUITests */,
+				D96734B62868B3E30046F3DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D96734B62868B3E30046F3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D96734B52868B3E30046F3DA /* TableTennisTracking.app */,
+				D96734CB2868B3E40046F3DA /* TableTennisTrackingTests.xctest */,
+				D96734D52868B3E40046F3DA /* TableTennisTrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96734B72868B3E30046F3DA /* TableTennisTracking */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8A3DA2868B4F500146494 /* iOS */,
+				D9F8A3D52868B4AB00146494 /* Resources */,
+				D9F8A3D62868B4B700146494 /* Supporting */,
+				D96734C62868B3E40046F3DA /* Info.plist */,
+			);
+			path = TableTennisTracking;
+			sourceTree = "<group>";
+		};
+		D96734CE2868B3E40046F3DA /* TableTennisTrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D96734CF2868B3E40046F3DA /* TableTennisTrackingTests.swift */,
+			);
+			path = TableTennisTrackingTests;
+			sourceTree = "<group>";
+		};
+		D96734D82868B3E40046F3DA /* TableTennisTrackingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D96734D92868B3E40046F3DA /* TableTennisTrackingUITests.swift */,
+				D96734DB2868B3E40046F3DA /* TableTennisTrackingUITestsLaunchTests.swift */,
+			);
+			path = TableTennisTrackingUITests;
+			sourceTree = "<group>";
+		};
+		D9F8A3D52868B4AB00146494 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D96734C12868B3E40046F3DA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9F8A3D62868B4B700146494 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				D96734B82868B3E30046F3DA /* AppDelegate.swift */,
+				D96734C32868B3E40046F3DA /* LaunchScreen.storyboard */,
+				D96734BA2868B3E30046F3DA /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		D9F8A3D72868B4CE00146494 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D96734BE2868B3E30046F3DA /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D9F8A3D82868B4DE00146494 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8A3D72868B4CE00146494 /* Storyboards */,
+				D9F8A3D92868B4E700146494 /* ViewControllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9F8A3D92868B4E700146494 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D96734BC2868B3E30046F3DA /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D9F8A3DA2868B4F500146494 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8A3DC2868B4FD00146494 /* Controllers */,
+				D9F8A3DB2868B4F800146494 /* Models */,
+				D9F8A3D82868B4DE00146494 /* Views */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D9F8A3DB2868B4F800146494 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9F8A3DC2868B4FD00146494 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D96734B42868B3E30046F3DA /* TableTennisTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96734DF2868B3E40046F3DA /* Build configuration list for PBXNativeTarget "TableTennisTracking" */;
+			buildPhases = (
+				D96734B12868B3E30046F3DA /* Sources */,
+				D96734B22868B3E30046F3DA /* Frameworks */,
+				D96734B32868B3E30046F3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableTennisTracking;
+			productName = TableTennisTracking;
+			productReference = D96734B52868B3E30046F3DA /* TableTennisTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D96734CA2868B3E40046F3DA /* TableTennisTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96734E22868B3E40046F3DA /* Build configuration list for PBXNativeTarget "TableTennisTrackingTests" */;
+			buildPhases = (
+				D96734C72868B3E40046F3DA /* Sources */,
+				D96734C82868B3E40046F3DA /* Frameworks */,
+				D96734C92868B3E40046F3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96734CD2868B3E40046F3DA /* PBXTargetDependency */,
+			);
+			name = TableTennisTrackingTests;
+			productName = TableTennisTrackingTests;
+			productReference = D96734CB2868B3E40046F3DA /* TableTennisTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D96734D42868B3E40046F3DA /* TableTennisTrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96734E52868B3E40046F3DA /* Build configuration list for PBXNativeTarget "TableTennisTrackingUITests" */;
+			buildPhases = (
+				D96734D12868B3E40046F3DA /* Sources */,
+				D96734D22868B3E40046F3DA /* Frameworks */,
+				D96734D32868B3E40046F3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96734D72868B3E40046F3DA /* PBXTargetDependency */,
+			);
+			name = TableTennisTrackingUITests;
+			productName = TableTennisTrackingUITests;
+			productReference = D96734D52868B3E40046F3DA /* TableTennisTrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D96734AD2868B3E30046F3DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D96734B42868B3E30046F3DA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					D96734CA2868B3E40046F3DA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = D96734B42868B3E30046F3DA;
+					};
+					D96734D42868B3E40046F3DA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = D96734B42868B3E30046F3DA;
+					};
+				};
+			};
+			buildConfigurationList = D96734B02868B3E30046F3DA /* Build configuration list for PBXProject "TableTennisTracking" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D96734AC2868B3E30046F3DA;
+			productRefGroup = D96734B62868B3E30046F3DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D96734B42868B3E30046F3DA /* TableTennisTracking */,
+				D96734CA2868B3E40046F3DA /* TableTennisTrackingTests */,
+				D96734D42868B3E40046F3DA /* TableTennisTrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D96734B32868B3E30046F3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96734C22868B3E40046F3DA /* Assets.xcassets in Resources */,
+				D96734C52868B3E40046F3DA /* LaunchScreen.storyboard in Resources */,
+				D96734C02868B3E30046F3DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96734C92868B3E40046F3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96734D32868B3E40046F3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D96734B12868B3E30046F3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96734B92868B3E30046F3DA /* AppDelegate.swift in Sources */,
+				D96734BD2868B3E30046F3DA /* MainViewController.swift in Sources */,
+				D96734BB2868B3E30046F3DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96734C72868B3E40046F3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96734D02868B3E40046F3DA /* TableTennisTrackingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96734D12868B3E40046F3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96734DA2868B3E40046F3DA /* TableTennisTrackingUITests.swift in Sources */,
+				D96734DC2868B3E40046F3DA /* TableTennisTrackingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D96734CD2868B3E40046F3DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96734B42868B3E30046F3DA /* TableTennisTracking */;
+			targetProxy = D96734CC2868B3E40046F3DA /* PBXContainerItemProxy */;
+		};
+		D96734D72868B3E40046F3DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96734B42868B3E30046F3DA /* TableTennisTracking */;
+			targetProxy = D96734D62868B3E40046F3DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D96734BE2868B3E30046F3DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D96734BF2868B3E30046F3DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D96734C32868B3E40046F3DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D96734C42868B3E40046F3DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D96734DD2868B3E40046F3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D96734DE2868B3E40046F3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D96734E02868B3E40046F3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YELD3CB3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableTennisTracking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamdouchi.TableTennisTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D96734E12868B3E40046F3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YELD3CB3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableTennisTracking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamdouchi.TableTennisTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D96734E32868B3E40046F3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YELD3CB3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamdouchi.TableTennisTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableTennisTracking.app/TableTennisTracking";
+			};
+			name = Debug;
+		};
+		D96734E42868B3E40046F3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YELD3CB3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamdouchi.TableTennisTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableTennisTracking.app/TableTennisTracking";
+			};
+			name = Release;
+		};
+		D96734E62868B3E40046F3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YELD3CB3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamdouchi.TableTennisTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableTennisTracking;
+			};
+			name = Debug;
+		};
+		D96734E72868B3E40046F3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YELD3CB3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamdouchi.TableTennisTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableTennisTracking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D96734B02868B3E30046F3DA /* Build configuration list for PBXProject "TableTennisTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96734DD2868B3E40046F3DA /* Debug */,
+				D96734DE2868B3E40046F3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96734DF2868B3E40046F3DA /* Build configuration list for PBXNativeTarget "TableTennisTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96734E02868B3E40046F3DA /* Debug */,
+				D96734E12868B3E40046F3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96734E22868B3E40046F3DA /* Build configuration list for PBXNativeTarget "TableTennisTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96734E32868B3E40046F3DA /* Debug */,
+				D96734E42868B3E40046F3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96734E52868B3E40046F3DA /* Build configuration list for PBXNativeTarget "TableTennisTrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96734E62868B3E40046F3DA /* Debug */,
+				D96734E72868B3E40046F3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D96734AD2868B3E30046F3DA /* Project object */;
+}
